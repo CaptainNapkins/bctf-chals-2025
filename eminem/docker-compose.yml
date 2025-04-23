@@ -1,0 +1,6 @@
+services:
+  timer:
+    build: .
+    ports:
+      - 4009:5000
+    privileged: true
